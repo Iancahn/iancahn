@@ -1,11 +1,15 @@
 import React from 'react';
+//import Framer Motion
+import { motion } from 'framer-motion';
+import { useRef, useEffect, useState } from "react";
 
 function Hello() {
     return (
         <div className="hello-container" id="hello">
             <div class="row">
                 <div class="column">
-                    <h1>Hello, I am Ian<span className="greenText">.</span></h1>
+                    <motion.h1 animate={{ opacity: 100 }}
+                        transition={{ duration: 0.5 }}>Hello, I am Ian<span className="greenText">.</span></motion.h1>
                 </div>
                 <div class="column">
                     <div className="hello-text">
