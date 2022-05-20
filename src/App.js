@@ -1,6 +1,10 @@
 import React from 'react';
-//Import components
+//Import styles
 import './styles/App.css';
+//import Framer Motion
+import { motion } from 'framer-motion';
+import { useRef, useEffect, useState } from "react";
+//Import components
 import Navbar from "./components/Navbar"
 import Hello from "./components/Hello"
 import About from "./components/About"
@@ -12,6 +16,7 @@ import ProjectList from "./components/ProjectList";
 import ProjectList2 from "./components/ProjectList2";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
