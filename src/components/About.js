@@ -7,7 +7,7 @@ function About() {
                 <div className="column">
                     <div class="about-text">
                         <p className="greenText">- A bit about me</p>
-                        <h2>I love taking long walks on the beach. If "on the beach" is a box of chicken nuggets, and "taking long walks" is actually eating<span className="greenText">...</span></h2>
+                        <h2>I love taking long walks on the beach. If "on the beach" is a box of chicken nuggets, and "taking long walks" is actually eating <span className="greenText">...</span></h2>
                     </div>
                 </div>
                 <div class="column">
